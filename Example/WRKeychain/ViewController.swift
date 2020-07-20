@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import WRKeychain
 
 class ViewController: UIViewController {
 
