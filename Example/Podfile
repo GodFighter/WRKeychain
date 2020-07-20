@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'WRKeychain_Example' do
+  pod 'WRKeychain', :path => '../'
+
+  target 'WRKeychain_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
